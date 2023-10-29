@@ -1,8 +1,12 @@
-.header {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 880px;
-    border-bottom: 1px solid rgba(84,84,84, 0.7);
-  }
-  
- 
+@import url("../vendor/normalize.css");
+@import url("../blocks/header.css");
+@import url("../blocks/page.css");
+@import url("../blocks/card.css");
+@import url("../blocks/content.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/gallery.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/profile.css");
+@import url("../blocks/modal.css");
+
+      
