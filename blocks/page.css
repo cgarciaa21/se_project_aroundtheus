@@ -1,25 +1,25 @@
 .page {
-  font-family: Inter, Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.page__sections {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .page__content {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
 }
 
-.page__section {
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1100px) {
-  .page__section {
-   padding: 0;
-   width: 305px; 
+@media screen and (max-width: 480px) {
+  .page__sections {
+    max-width: 90%;
   }
 }
